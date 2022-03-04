@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body {
+	font-family: 'Noto Serif Display', serif;
+	margin: 0;
+	padding: 0;
+}
+h2, h3 {
+	color: #706C61
+}
+footer {
+	padding: 20px;
+	color: white;
+	background-color: #706C61
+}
+nav a {
+   font-size: 18px;
+   font-weight: 500;
+   text-decoration: none;
+   color: #706C61;
+}
+nav a:hover {
+   font-weight: bold;
+}
+
+.profile header {
+	text-align: center;
+}
+footer {
+	padding: 20px;
+	color: white;
+	text-align: center;
+	text-weight: bold;
+}
+
+.profile-image {
+	width: 200px;
+}
+
+.round-image {
+	border-radius: 50%;
+}
+
+.card {
+	box-shadow: -7px 11px 40px -16px rgba(0,0,0,0.75);
+	border-radius: 5px;
+	padding: 20px;
+   margin-top: 20px;
+}
+
+.banner {
+	font-size: 20px;
+	padding: 20px;
+	background-color: #333333;
+	text-align: center;
+	color: white;
+}
+
+nav li {
+	display: inline;
+	list-style-type: none;
+	margin-right: 20px;
+    color: #706C61
+}
+
+nav {
+	background-color: #E1F4F3;
+	padding: 5px;
+	position: sticky;
+	top: 0;
+}
+
+main {
+	padding: 20px;
+	overflow: auto;
+}
+
+#content {
+	float: left;
+	width: 70%;
+}
+
+img{
+    width:100%;
+    max-width:600px;
+}
+
+aside {
+	float: right;
+	width: 30%;
+	padding: 10px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+   display: inline;
+}
+
+.container {
+    width: 500px;
+    
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.flex-row-name {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.box {
+    flex-basis: 25%;
+    background-color: rgb(255, 255, 255);
+    
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 1.5em;
+    
+}
+
+.box-name {
+    flex-basis: 25%;
+    background-color: rgb(255, 255, 255);
+    
+    padding: 2px 10px 10px 10px;
+    text-align: center;
+    color: black;
+    font-size: 0.7em;
+    
+}
+ .double {
+ flex-basis: 50%;
+ font-size: 1.5em;
+ }
+
+ .kecil {
+    flex-basis: 50%;
+    font-size: 0.7em;
+    }
+
+ 
+
+ .anggota{
+    width: 100px;
+ }
+
+ section {
+	text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+     aside {
+        width: 100%;
+        padding: 0px;
+    }
+ }
+ 
+ @media screen and (max-width: 460px) { 
+     .container, .box, .box-name {
+         width: 100%;
+     }
+  }
